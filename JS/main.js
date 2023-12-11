@@ -9,7 +9,7 @@ var colorsContainer = document.getElementById("colorsContainer")
 var levels = {
   easy: {
     name: "easy",
-    numberOfCards: 3;
+    numberOfCards: 3,
     try: 1
   },
 
