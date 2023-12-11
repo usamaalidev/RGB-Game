@@ -1,0 +1,21 @@
+header {
+  background-color: lightgoldenrodyellow;
+  border-bottom: 30px solid orange;
+}
+
+header button {
+  transition: 350ms color;
+}
+
+header button:hover,
+header button.active {
+  color: #fff !important ;
+}
+
+section {
+  min-height: 61vh;
+}
+
+.color-card {
+  height: 200px;
+}

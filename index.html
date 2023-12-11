@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Game</title>
+    <!--^===========> Font Awesome Library Icon  -->
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <!--*===========> Bootstrap   -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <!--?===========> Main Style Sheet  -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+  </head>
+  <body>
+    <div class="wrapper vh-100">
+      <header class="py-5 d-flex flex-column align-items-center gap-3">
+        <h1 class="text-uppercase">RGB Game</h1>
+        <h2 id="rgbSyntax">rgb(255, 255, 255)</h2>
+        <div class="button-group">
+          <button id="easyBtn" class="btn active btn-outline-danger text-black">
+            Easy
+          </button>
+          <button id="hardBtn" class="btn btn-outline-danger text-black">
+            Hard
+          </button>
+        </div>
+      </header>
+
+      <section class="bg-black py-4">
+        <button id="getColorsBtn" class="btn btn-success d-block mx-auto">
+          GET COLORS
+        </button>
+
+        <div id="colorsContainer" class="container"></div>
+      </section>
+    </div>
+
+    <!--&===========> Js Main File   -->
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
